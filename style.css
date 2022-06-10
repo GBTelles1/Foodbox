@@ -1,0 +1,97 @@
+body {
+    background: lightgray;
+    font-family: "Roboto", sans-serif;
+    margin: 10px auto 5px auto;
+    width: 40%;
+}
+
+.container {
+    display: flex;
+    /*background: green;*/
+    flex-flow: row;
+    justify-content: space-around;
+}
+
+.headerbox {
+    background: red;
+    border-radius: 5px;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+}
+  
+h1 {
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.options {
+    display: flex;
+    flex-flow: column;
+    background: white;
+    justify-content: flex-start;
+    border-radius: 10px;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+h4 {
+    position: sticky;
+    top: 0;
+    left: 0;
+    padding: 10px;
+}
+
+h5 {
+    font-weight: bold;
+    padding: 10px;
+}
+
+p {
+    margin: 10px;
+}
+
+h5 {
+    float:inline-end;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+}
+  
+.produto {
+    display: flex;
+    flex-flow: row-reverse;
+    justify-content: space-between;
+    background: white;
+    border-radius: 5px;
+    margin: 10px auto 0 auto;
+    padding: 20px;
+
+}
+
+
+img {
+    width: 170px;
+    border-radius: 10px;
+    /*float: right;*/
+}
+  
+h4 {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+  
+p {
+    margin-bottom: 7px;
+}
+  
+.price {
+    font-weight: bold;
+}
